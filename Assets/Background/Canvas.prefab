@@ -201,7 +201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4463129441451113900, guid: 69ae74aa31f7e49cf94d75e8a9b152ff, type: 3}
       propertyPath: m_text
-      value: v0.6.2
+      value: v0.6.4
       objectReference: {fileID: 0}
     - target: {fileID: 4463129441451113900, guid: 69ae74aa31f7e49cf94d75e8a9b152ff, type: 3}
       propertyPath: m_fontSize
@@ -721,7 +721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5341137831082776591, guid: bfc0433171fdf47699ebdd1213bb4bc2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: QuitGame
+      value: PlayGame
       objectReference: {fileID: 0}
     - target: {fileID: 5341137831082776591, guid: bfc0433171fdf47699ebdd1213bb4bc2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
