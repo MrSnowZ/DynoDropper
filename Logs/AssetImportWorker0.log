@@ -187,3 +187,11 @@ Received Import Request.
 Start importing Assets/Spawner.cs using Guid(21af35885f45e43d3a3f2be6eda71298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fe1d7520ca638ce393f87e3cefc43a') in 0.760125 seconds 
   Import took 0.770240 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 2883.132597 seconds.
+  path: Assets/Spawner.cs
+  artifactKey: Guid(21af35885f45e43d3a3f2be6eda71298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spawner.cs using Guid(21af35885f45e43d3a3f2be6eda71298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1afa2152643a88cd18f4f672191b74') in 0.019748 seconds 
+  Import took 0.066145 seconds .
+
