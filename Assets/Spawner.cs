@@ -11,7 +11,7 @@ public class WaveSpawner : MonoBehaviour{
     Public class Wave
     {
         public String name; 
-        public Transform enemy;
+        public Transform Candy;
         public int count;
         public float rate;
     }
@@ -20,6 +20,8 @@ public class WaveSpawner : MonoBehaviour{
 
         public float timeBetweenwaves = 5f;
         private float waveCountdown = 3f;
+
+        private float searchCountdown = 1f;
 
         private SpawnState state = SpawnState.COUNTING;
 
@@ -32,7 +34,15 @@ public class WaveSpawner : MonoBehaviour{
         {
             if (state == SpawnState.WAITING) 
             {
-                // Check if enemies are still alive
+                if (CandyIsAlive() ) 
+                {
+                    // Begin a new round
+                    Debug.Log ("Wave Completed!");
+
+                } else 
+                {
+                    return;
+                }
             }
 
             if (waveCountdown <= 0)
@@ -48,13 +58,19 @@ public class WaveSpawner : MonoBehaviour{
             }
         } 
 
-        bool EnemyIsAlive() 
+        bool CandyIsAlive() 
         {
-            if (GameObject.FindGameObjectWithTag ("Enemy" == null)
-        }
-        return false;
-        {
+            searchCountdown -= Time.deltaTime;
+            if (searchCountdown <= 0f) 
+            {
+                searchCountdown = 1f;
+                    if (GameObject.FindGameObjectWithTag ("Candy" == null)
+                    {
+                        return false;
+                    }
+            }
 
+            
         }
 
         return true;
@@ -65,11 +81,12 @@ public class WaveSpawner : MonoBehaviour{
         
         IEnumerator SpawnWave (Wave _wave) 
         { 
+            Debug.Log ("Spawning Wave: " + _wave.name);
             state = SpawnState.SPAWNING;
 
             for (int = 0; i < _wave.count; i++ )
             {
-                SpawnEnemy (_wave.enemy);
+                SpawnCandy (_wave.candy);
                 yeild return new WaitForSeconds ( 1f/_wave.rate  );
             }
 
@@ -78,11 +95,12 @@ public class WaveSpawner : MonoBehaviour{
             yield break;
         }
 
-        void SpawnEnemy (Transform _enemy) 
+        void SpawnCandy (Transform _candy) 
         {
-            //spawn enemy
-            Debug.Log ("Spawing Enemy: " + _enemmy.name);
+            Debug.Log ("Spawing Candy: " + _Candy.name);
         }
+           Instantiate(_candy, transform.position, transform.rotation);
+            
         
     }
 
