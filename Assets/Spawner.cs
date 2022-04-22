@@ -18,6 +18,8 @@ public class WaveSpawner : MonoBehaviour{
         public Wave[] waves;
         private int nextWave = 0;
 
+        public Transform[] spawnPoints;
+
         public float timeBetweenwaves = 5f;
         private float waveCountdown = 3f;
 
@@ -27,6 +29,11 @@ public class WaveSpawner : MonoBehaviour{
 
         void Start () 
         {   
+            if (spawnPoints.Length == 0) 
+            {
+                Debug.LogError ("No spawn points referenced.");
+
+
             waveCountdown = timeBetweenwaves;
         }
 
@@ -36,9 +43,7 @@ public class WaveSpawner : MonoBehaviour{
             {
                 if (CandyIsAlive() ) 
                 {
-                    // Begin a new round
-                    Debug.Log ("Wave Completed!");
-
+                    WaveCompleted();
                 } else 
                 {
                     return;
@@ -57,6 +62,25 @@ public class WaveSpawner : MonoBehaviour{
                 waveCountdown -= Time.deltaTime;
             }
         } 
+
+        void WaveCompleted () 
+        {
+            Debug.Log("Wave Completed");
+
+            state = SpawnState.COUNTING;
+            waveCountdown = timeBetweenwaves;
+
+            if (nextWave + 1 > waves.Length - 1 ) 
+            {
+                nextWave = 0;
+                Debug.Log ("ALL WAVES COMPLETED! Looping...");
+            } 
+           else
+            {
+                nextWave++;
+            }
+            
+         }
 
         bool CandyIsAlive() 
         {
@@ -98,8 +122,12 @@ public class WaveSpawner : MonoBehaviour{
         void SpawnCandy (Transform _candy) 
         {
             Debug.Log ("Spawing Candy: " + _Candy.name);
+
+            Transform _sp = spawnPoints [ Random.Range (0, spawnPoints.Length) ];
+
+
         }
-           Instantiate(_candy, transform.position, transform.rotation);
+           Instantiate(_candy, _sp.position, _sp.rotation);
             
         
     }
