@@ -11,7 +11,7 @@ public class WaveSpawner : MonoBehaviour{
     public class Wave
     {
         public string name; 
-        public Transform Candy;
+        public GameObject Candy;
         public int count;
         public float rate;
     }
@@ -114,7 +114,7 @@ public class WaveSpawner : MonoBehaviour{
         yield break;
     }
 
-    void SpawnCandy (Transform _candy) 
+    void SpawnCandy (GameObject _candy) 
     {
         Debug.Log("Spawing Candy: " + _candy.name);
 
