@@ -503,6 +503,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1744337256227264377, guid: f0c294d71fde541c7bd10dbf58c2d517, type: 3}
+      propertyPath: waves.Array.data[0].Candy
+      value: 
+      objectReference: {fileID: 3741042768309029016, guid: a0937f380b5f54a39a083994aa13f0cd, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0c294d71fde541c7bd10dbf58c2d517, type: 3}
 --- !u!1001 &2373163183685405078
@@ -515,10 +519,10 @@ PrefabInstance:
     - target: {fileID: 2373163184848910954, guid: 8e08a6113e1384a94868eccf69dc569b, type: 3}
       propertyPath: waves.Array.data[0].Candy
       value: 
-      objectReference: {fileID: 7025880854420038372}
+      objectReference: {fileID: 0}
     - target: {fileID: 2373163184848910955, guid: 8e08a6113e1384a94868eccf69dc569b, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2373163184848910955, guid: 8e08a6113e1384a94868eccf69dc569b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -633,7 +637,7 @@ PrefabInstance:
     - target: {fileID: 4122359887545916512, guid: a65588a6ba193414f85c296a72f0ac28, type: 3}
       propertyPath: waves.Array.data[0].Candy
       value: 
-      objectReference: {fileID: 7025880854420038371}
+      objectReference: {fileID: 0}
     - target: {fileID: 4122359887545916513, guid: a65588a6ba193414f85c296a72f0ac28, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -848,10 +852,10 @@ PrefabInstance:
     - target: {fileID: 5636098019931239088, guid: de70dd9b4894440059ea67989903d09d, type: 3}
       propertyPath: waves.Array.data[0].Candy
       value: 
-      objectReference: {fileID: 7025880854420038374}
+      objectReference: {fileID: 0}
     - target: {fileID: 5636098019931239089, guid: de70dd9b4894440059ea67989903d09d, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5636098019931239089, guid: de70dd9b4894440059ea67989903d09d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1136,83 +1140,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 815433c308f24479ba4d47659cc39275, type: 3}
---- !u!1001 &7025880854420038370
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7025880855813202281, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-      propertyPath: m_Name
-      value: CandyFolder
-      objectReference: {fileID: 0}
-    - target: {fileID: 7025880855813202286, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 7025880855813202286, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.62282944
-      objectReference: {fileID: 0}
-    - target: {fileID: 7025880855813202286, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.6700056
-      objectReference: {fileID: 0}
-    - target: {fileID: 7025880855813202286, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.3882488
-      objectReference: {fileID: 0}
-    - target: {fileID: 7025880855813202286, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7025880855813202286, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7025880855813202286, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7025880855813202286, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7025880855813202286, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7025880855813202286, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7025880855813202286, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
---- !u!1 &7025880854420038371 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3032726606868757878, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-  m_PrefabInstance: {fileID: 7025880854420038370}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7025880854420038372 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9185618907840651810, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-  m_PrefabInstance: {fileID: 7025880854420038370}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7025880854420038373 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1331919664979071538, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-  m_PrefabInstance: {fileID: 7025880854420038370}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7025880854420038374 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4457181433161327917, guid: cb19dba8891c84552af417d8cfb80dd4, type: 3}
-  m_PrefabInstance: {fileID: 7025880854420038370}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9193778575938522158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1223,10 +1150,10 @@ PrefabInstance:
     - target: {fileID: 9193778575676783226, guid: 7e17e57e3c88047bfa0a5f43d73967df, type: 3}
       propertyPath: waves.Array.data[0].Candy
       value: 
-      objectReference: {fileID: 7025880854420038373}
+      objectReference: {fileID: 0}
     - target: {fileID: 9193778575676783227, guid: 7e17e57e3c88047bfa0a5f43d73967df, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 9193778575676783227, guid: 7e17e57e3c88047bfa0a5f43d73967df, type: 3}
       propertyPath: m_LocalPosition.x
