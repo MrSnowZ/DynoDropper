@@ -370,3 +370,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 818.788003 seconds.
+  path: Assets/newStartMenuAssets/Canvas.prefab
+  artifactKey: Guid(b0a38e9e44a374f1b8c40dc3207ce729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/newStartMenuAssets/Canvas.prefab using Guid(b0a38e9e44a374f1b8c40dc3207ce729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7354230c9bc2a786d607955238be2e') in 0.175136 seconds 
+  Import took 0.180813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 309.186118 seconds.
+  path: Assets/Sounds
+  artifactKey: Guid(02bede60a88464f80a0d09d43127479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(02bede60a88464f80a0d09d43127479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a378059b4fe4d2834b4f1944dbb612') in 0.001017 seconds 
+  Import took 0.003468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.783742 seconds.
+  path: Assets/Sounds/My Song 5.mp3
+  artifactKey: Guid(b650b68e15d47465ebc6dba97ac0208e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/My Song 5.mp3 using Guid(b650b68e15d47465ebc6dba97ac0208e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2a54147aae82f6fc8c53bf66a6ec56') in 0.285764 seconds 
+  Import took 0.294811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.510860 seconds.
+  path: Assets/Sounds/Sound.prefab
+  artifactKey: Guid(ac0a2e7757af54ebb963b465fef3e4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Sound.prefab using Guid(ac0a2e7757af54ebb963b465fef3e4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2446b3259486464079b2483285425938') in 0.004653 seconds 
+  Import took 0.007279 seconds .
+
